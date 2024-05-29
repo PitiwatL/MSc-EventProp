@@ -8,8 +8,10 @@ warnings.filterwarnings("ignore")
 """
 Let's write a function that generates 10 Gaussians for each input feature so that:
 
-- means of each Gaussian are evenly distributed between the extreme values of the range, including the boundaries for each feature ( "Sepal Length", "Sepal Width", "Petal Length", and "Petal Width");
-- the height of each Gaussian is equal to 1 is the maximum excitation value of the presynaptic neuron, from which late we will calculate the spike generation latency by presynaptic neuron.
+- means of each Gaussian are evenly distributed between the extreme values of the range, including the boundaries for each feature 
+  ( "Sepal Length", "Sepal Width", "Petal Length", and "Petal Width");
+- the height of each Gaussian is equal to 1 is the maximum excitation value of the presynaptic neuron, 
+  from which late we will calculate the spike generation latency by presynaptic neuron.
 """
 
 def Gaus_neuron(df, n, step, s):
