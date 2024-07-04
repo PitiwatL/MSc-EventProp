@@ -2,7 +2,7 @@
 This is a part of my project from the University of Nottingham for MSc Machine Learning in Science.
 
 ## Requirements
-The code has been tested on GTX3050 locally with PyTorch 1.12 and Cuda 11.3.
+The code has been tested on RTX3050 locally with PyTorch 1.12 and Cuda 11.3.
 ```Shell
 conda create --name snn_eventprop python=3.7
 conda activate snn_eventprop
