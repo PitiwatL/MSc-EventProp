@@ -12,3 +12,8 @@ Next, type
 ```Shell
 !pip install tqdm snntorch
 ```
+This multilayer EventProp code is modified from this repo, please check for more details
+
+```
+https://github.com/lolemacs/pytorch-eventprop
+```
